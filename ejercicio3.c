@@ -1,8 +1,10 @@
 #include<stdio.h>
+
 /*
  Se imprimen 3 valores de un arreglo a través
  de aritmética de direcciones.
 */
+
 int main () {
   int *ap;
   int nums[3][3] = {{99,88,77},

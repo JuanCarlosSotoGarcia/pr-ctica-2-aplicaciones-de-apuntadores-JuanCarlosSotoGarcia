@@ -6,7 +6,7 @@ int main () {
   d = 'z';
   e = '\t';
   
-  //Escrib el código para imprimir las direcciones de a, b y c
+  //Escribe el código para imprimir las direcciones de a, b y c
   printf("%p\n %p\n %p\n", &c, &d; &e);
   ap = &c;
   // imprime el carácter de la localidad a la que apunta
@@ -33,4 +33,5 @@ int main () {
   printf("Dirección de memoria: %d\n",ap);
 
  return 0;
+
 }

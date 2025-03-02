@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /*
  Este programa crea un apuntador de tipo entero
  que apunta al inicio de un arreglo.
 */
+
 int main () {
   short arr[5] ={1,2, 3, 4, 5}, *apArr;
   apArr = &arr[0];

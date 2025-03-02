@@ -1,9 +1,8 @@
+#include <stdio.h>
+#include <string.h>
 /*
   Inversión de una Cadena Usando Apuntadores
 */
-
-#include <stdio.h>
-#include <string.h>
 
 void invertirCadena(char *cadena) {
     char *inicio = cadena;

@@ -29,4 +29,5 @@ void pasarReferencia(int *equis){
   printf("%d\n", *equis);
   *equis = 128;
   printf("%d\n", *equis);
+  
 }

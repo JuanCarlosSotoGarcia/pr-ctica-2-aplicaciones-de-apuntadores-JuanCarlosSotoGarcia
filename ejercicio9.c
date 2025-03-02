@@ -1,13 +1,24 @@
-// 9. Suma con Apuntadores
 #include <stdio.h>
+// 9. Suma con Apuntadores
 
+// Función para sumar los elementos de un arreglo usando apuntadores
 int sumaArreglo(int *arr, int tamaño) {
-    // Implementar la suma aquí
-    return 0;
+    int suma = 0; 
+
+    for (int i = 0; i < tamaño; i++) {
+        suma += *(arr + i);
+    }
+
+    return suma; 
 }
 
 int main() {
     int numeros[] = {1, 2, 3, 4, 5};
-    // Código para calcular y mostrar la suma
+    int tamaño = sizeof(numeros) / sizeof(numeros[0]); 
+
+    int resultado = sumaArreglo(numeros, tamaño);
+
+    printf("La suma de los elementos del arreglo es: %d\n", resultado);
+
     return 0;
 }
